@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>article.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="productid" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="ean" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="colorid" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="size" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="originalprice" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="reducedprice" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="taxrate" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="discountinpercent" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="F10" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="F11" size="255" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F12" size="255" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F13" size="255" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F14" size="255" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F15" size="255" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="210" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Jihen\AppData\Local\Temp\Engine_8604_ec2e501e42f6db498f4172a1a65711c3_\Engine_8604_68e9e774b480804ab2eae1f505b25a30~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="210" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Jihen\AppData\Local\Temp\Engine_8604_ec2e501e42f6db498f4172a1a65711c3_\Engine_8604_cf8aaad4cc41c944bec561b24a9e10e1~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>article.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="productid" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="ean" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="colorid" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="size" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="originalprice" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="reducedprice" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="taxrate" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="discountinpercent" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="F10" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="F11" size="255" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F12" size="255" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F13" size="255" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F14" size="255" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F15" size="255" source="File: C:\Users\Jihen\Desktop\bi proj\article.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Jihen\Desktop\bi proj\colors.xlsx|||`colors$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>colors.xlsx
+Query=`colors$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" source="File: C:\Users\Jihen\Desktop\bi proj\colors.xlsx|||`colors$`" type="Double" />
+            <Field name="name" size="255" source="File: C:\Users\Jihen\Desktop\bi proj\colors.xlsx|||`colors$`" type="V_String" />
+            <Field name="rbg" size="255" source="File: C:\Users\Jihen\Desktop\bi proj\colors.xlsx|||`colors$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="210" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Jihen\AppData\Local\Temp\Engine_8604_ec2e501e42f6db498f4172a1a65711c3_\Engine_8604_3833d737d248a04b8071c4efeee6ca63~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>browse</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="00d69a7f-1bb3-4919-a044-b9685faa92c4" />
+      <Telemetry>
+        <PreviousWorkflowId value="59b92d53-7e50-4740-bf54-ff8ac31d396a" />
+        <OriginWorkflowId value="59b92d53-7e50-4740-bf54-ff8ac31d396a" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

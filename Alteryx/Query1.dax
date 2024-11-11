@@ -1,0 +1,15 @@
+﻿SELECT {
+		[Measures].[Sum of reducedprice],
+		[Measures].[Sum of count]
+	} 
+	DIMENSION PROPERTIES PARENT_UNIQUE_NAME,MEMBER_VALUE,HIERARCHY_UNIQUE_NAME ON COLUMNS , 
+	NON EMPTY Hierarchize
+	({
+		DrilldownLevel(
+		{[Range].[name].[All]},,,INCLUDE_CALC_MEMBERS)}
+		) 
+	DIMENSION PROPERTIES PARENT_UNIQUE_NAME,MEMBER_VALUE,HIERARCHY_UNIQUE_NAME ON ROWS 
+	FROM [Model] 
+	WHERE ([Range].[time].[All],[Range].[size].[All],[Range].[gender].[All],[Range].[color_name].[All],[Range].[category].[All]) 
+	CELL PROPERTIES VALUE, FORMAT_STRING, 
+	LANGUAGE, BACK_COLOR, FORE_COLOR, FONT_FLAGS
